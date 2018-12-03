@@ -122,7 +122,7 @@ gulp.task('serve', function(){
 gulp.task('watch', function() {
   gulp.watch(paths.src.imgAll, ['imagemin']);
   gulp.watch(paths.src.scssAll, ['sass']);
-  gulp.watch(paths.src.jsAll, ['phaser']);
+  gulp.watch(paths.src.jsDir + '/phaser.js', ['phaser']);
   gulp.watch(paths.src.jsAll, ['scripts']);
   gulp.watch(paths.src.html, ['html']);
 });
