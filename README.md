@@ -6,4 +6,6 @@ Boilerplate for quick setup of new Phaser games.
 
 1. Change `<title>` in `src/index.html` file to new game’s name.
 2. Replace `game-title` with title of game on line 6 of `src/assets/js/states/game.js`.
-3. 
+3. `npm install`
+4. `npm start`
+5. Get to work!
