@@ -1,0 +1,24 @@
+{
+  "name": "phaser-boilerplate",
+  "version": "1.0.0",
+  "description": "A game built with Phaser",
+  "author": "Andrew Philpott",
+  "devDependencies": {
+    "gulp": "latest",
+    "browser-sync": "^2.9.0",
+    "gulp-autoprefixer": "latest",
+    "gulp-copy": "latest",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "latest",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.1",
+    "gulp-sass-glob": "latest",
+    "gulp-sourcemaps": "latest",
+    "gulp-uglify": "latest",
+    "gulp-watch": "latest",
+    "jshint": "^2.9.1"
+  },
+  "scripts": {
+    "start": "gulp"
+  }
+}
