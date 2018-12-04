@@ -111,7 +111,7 @@ gulp.task('serve', function(){
   browserSync.init({
     server: './public',
     baseDir: paths.dest.dir,
-    port: 3001
+    port: 4747
   });
 
   gulp.watch(paths.dest.templates + '/**/*.html').on('change', reload);
